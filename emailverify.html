@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Verification - PakWaste</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: #afd1a3; /* Match with home page */
+    }
+  </style>
+</head>
+<body>
+  <section class="form-section">
+    <h2>Verify Your Email</h2>
+    <a href="index.html" class="service-btn" style="margin-bottom: 1rem; display: inline-block;">Home</a>
+    <form class="form-card" id="emailverify-form">
+      <p>We've sent a verification code to your email. Please enter it below.</p>
+      <input type="text" placeholder="Verification Code" required>
+      <button type="submit" class="service-btn">Verify Email</button>
+      <p>Didn't receive the code? <a href="#" id="resend-code">Resend Code</a></p>
+    </form>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
